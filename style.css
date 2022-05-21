@@ -1,0 +1,89 @@
+*{
+    margin:0px;
+    padding: 0px;;
+    box-sizing: border-box;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.Custom01{
+    height: 30%;
+    width:100%;
+    display :flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: #f01c983f;
+}
+.logo{
+    height: 30%;
+    width:20%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.image{
+    height:100px;
+    width:100px;
+    border-radius: 25px;
+}
+.list{
+    height:30%;
+    width:85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list_items{
+    height:30%;
+    width:20%;
+    float: right;
+}
+
+.Custom04{
+    height: 60vh;
+    width:100%;
+    display: flex;
+    padding-top: 50px;
+    box-sizing: border-box;
+    background-color: #21bfe62f;
+}
+
+.Custom03{
+    height: 40%;
+    width:100%;
+    float: right;
+}
+.para{
+    height: 300px;
+    width:500px;
+    margin: auto;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: x-large;
+}
+
+input{
+    font-size: large;
+    border: 2px solid;
+    border-color: rgb(22, 36, 221);
+    border-radius: 25px;
+    padding: 10px;
+}
+.email{
+    padding-left: 35px;
+}
+.email,password{
+    height: 130px;
+    width:500px;
+}
+#Submit{
+    height:50px;
+    width:100px;
+    background-color:aqua;
+    color:black;
+    font-size:medium;
+    font-weight: bold;
+    border: 2px solid;
+    border-color: rgb(22, 36, 221);
+    border-radius: 25px;
+}
+.submit{
+    padding-left: 170px;
+}
