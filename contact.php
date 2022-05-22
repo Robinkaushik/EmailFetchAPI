@@ -13,6 +13,11 @@
     <link rel="stylesheet" href="footer/assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="footer/assets/css/styles.css">
     <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+        function showmsg(){
+            alert("data saved succesfully") ;
+        }
+    </script>
     <style>
         * {
             font-family: 'DM Serif Display', serif;
@@ -74,7 +79,7 @@
         <div class="Custom04">
             <div class="Custom03">
                 <div class="para">
-                    <form action="dashboard.php" method="post">
+                    <form action="conn.php" method="post">
                         <div class="name">
                             <label>name</label>
                             <input type="text" name="name" id="name"><br><br>
